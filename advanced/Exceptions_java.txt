@@ -1,0 +1,10 @@
+An exception is an unexpected problem that occurs during program execution and it will interrupts the normal flow.
+ there are two types of exception checked and unchecked exception.
+
+Checked exceptions are checked at compile time itself. The compiler itself will force to handle them, using try-catch or throws.why it forces because it represents recovarable problems like external issues, involving files, Db connection, etc. 
+Example Checked exceptions are:
+IOException, FileNotFoundException, SQLException.
+
+
+Unchecked exception are not checked at compile time. They found at runtime. it should be also handled to execute the program butit can be compiled. These represents developers programming mistakes like dividing by zero, using invalid array index, etc.
+Example Unchecked Exceptions are: ArithmeticException, ArrayIndexOutOfBoundsException. 
